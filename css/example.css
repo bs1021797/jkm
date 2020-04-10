@@ -1,0 +1,32 @@
+/*首页头部的样式*/
+.css_use{
+	/*布局定位属性*/
+	float: left;
+	/*自身属性*/
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	border: 1px red solid;
+	background: red;
+	/*文本属性*/
+	text-align: center;
+	font-size: 16px;
+	color: #fff;
+}
+.loading{
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background: rgba(60,60,60,0.6);
+}
+.loading img{
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 60px;
+	height: 90px;
+	margin: auto;
+}

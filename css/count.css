@@ -1,0 +1,30 @@
+.choose_count_box {
+    position: absolute;
+    right: 1.5rem;
+    top: .75rem;
+    display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: box;
+    display: -ms-flex;
+    height: 2.3rem;
+    line-height: 2.3rem;
+    border: 1px solid #bebebe;
+    color: #999;
+}
+
+.choose_count_box span {
+    display: block;
+    width: 2.3rem;
+    height: 2.3rem;
+    text-align: center;
+}
+
+.choose_count_box em {
+    display: block;
+    height: 2.3rem;
+    width: 4.5rem;
+    text-align: center;
+    border-left: 1px solid #bebebe;
+    border-right: 1px solid #bebebe;
+}
